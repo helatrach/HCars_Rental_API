@@ -1,0 +1,15 @@
+D:\Projects\HCARS.API\HCARS.Application\bin\Debug\net6.0\HCARS.Services.deps.json
+D:\Projects\HCARS.API\HCARS.Application\bin\Debug\net6.0\HCARS.Services.dll
+D:\Projects\HCARS.API\HCARS.Application\bin\Debug\net6.0\ref\HCARS.Services.dll
+D:\Projects\HCARS.API\HCARS.Application\bin\Debug\net6.0\HCARS.Services.pdb
+D:\Projects\HCARS.API\HCARS.Application\bin\Debug\net6.0\HCARS.Domain.dll
+D:\Projects\HCARS.API\HCARS.Application\bin\Debug\net6.0\HCARS.Domain.pdb
+D:\Projects\HCARS.API\HCARS.Application\obj\Debug\net6.0\HCARS.Services.csproj.AssemblyReference.cache
+D:\Projects\HCARS.API\HCARS.Application\obj\Debug\net6.0\HCARS.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\HCARS.API\HCARS.Application\obj\Debug\net6.0\HCARS.Services.AssemblyInfoInputs.cache
+D:\Projects\HCARS.API\HCARS.Application\obj\Debug\net6.0\HCARS.Services.AssemblyInfo.cs
+D:\Projects\HCARS.API\HCARS.Application\obj\Debug\net6.0\HCARS.Services.csproj.CoreCompileInputs.cache
+D:\Projects\HCARS.API\HCARS.Application\obj\Debug\net6.0\HCARS.Services.csproj.CopyComplete
+D:\Projects\HCARS.API\HCARS.Application\obj\Debug\net6.0\HCARS.Services.dll
+D:\Projects\HCARS.API\HCARS.Application\obj\Debug\net6.0\ref\HCARS.Services.dll
+D:\Projects\HCARS.API\HCARS.Application\obj\Debug\net6.0\HCARS.Services.pdb

@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "39f89945-2bed-4b28-a713-5a7d8bcfdfb9": {
+      "ProjectGuid": "39f89945-2bed-4b28-a713-5a7d8bcfdfb9",
+      "DisplayName": "HCARS.API",
+      "ColorIndex": 0
+    },
+    "a0de5717-e45f-474d-bc2a-fa9477164b12": {
+      "ProjectGuid": "a0de5717-e45f-474d-bc2a-fa9477164b12",
+      "DisplayName": "HCARS.Domain",
+      "ColorIndex": 1
+    },
+    "fa628e53-68a4-4ff9-a1b8-b5beb0f8cad9": {
+      "ProjectGuid": "fa628e53-68a4-4ff9-a1b8-b5beb0f8cad9",
+      "DisplayName": "HCARS.Services",
+      "ColorIndex": 2
+    },
+    "cdb8886f-07a6-4dfb-ac33-3c06eac41f3a": {
+      "ProjectGuid": "cdb8886f-07a6-4dfb-ac33-3c06eac41f3a",
+      "DisplayName": "HCARS.Infrastructure",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}

@@ -1,0 +1,12 @@
+D:\Projects\HCARS.API\HCARS.Application\bin\Debug\net6.0\HCARS.Application.deps.json
+D:\Projects\HCARS.API\HCARS.Application\bin\Debug\net6.0\HCARS.Application.dll
+D:\Projects\HCARS.API\HCARS.Application\bin\Debug\net6.0\ref\HCARS.Application.dll
+D:\Projects\HCARS.API\HCARS.Application\bin\Debug\net6.0\HCARS.Application.pdb
+D:\Projects\HCARS.API\HCARS.Application\obj\Debug\net6.0\HCARS.Application.csproj.AssemblyReference.cache
+D:\Projects\HCARS.API\HCARS.Application\obj\Debug\net6.0\HCARS.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\HCARS.API\HCARS.Application\obj\Debug\net6.0\HCARS.Application.AssemblyInfoInputs.cache
+D:\Projects\HCARS.API\HCARS.Application\obj\Debug\net6.0\HCARS.Application.AssemblyInfo.cs
+D:\Projects\HCARS.API\HCARS.Application\obj\Debug\net6.0\HCARS.Application.csproj.CoreCompileInputs.cache
+D:\Projects\HCARS.API\HCARS.Application\obj\Debug\net6.0\HCARS.Application.dll
+D:\Projects\HCARS.API\HCARS.Application\obj\Debug\net6.0\ref\HCARS.Application.dll
+D:\Projects\HCARS.API\HCARS.Application\obj\Debug\net6.0\HCARS.Application.pdb

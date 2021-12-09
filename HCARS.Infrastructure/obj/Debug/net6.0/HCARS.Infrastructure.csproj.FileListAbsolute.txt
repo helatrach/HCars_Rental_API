@@ -1,0 +1,17 @@
+D:\Projects\HCARS.API\HCARS.Infrastructure\bin\Debug\net6.0\HCARS.Infrastructure.deps.json
+D:\Projects\HCARS.API\HCARS.Infrastructure\bin\Debug\net6.0\HCARS.Infrastructure.runtimeconfig.json
+D:\Projects\HCARS.API\HCARS.Infrastructure\bin\Debug\net6.0\HCARS.Infrastructure.dll
+D:\Projects\HCARS.API\HCARS.Infrastructure\bin\Debug\net6.0\ref\HCARS.Infrastructure.dll
+D:\Projects\HCARS.API\HCARS.Infrastructure\bin\Debug\net6.0\HCARS.Infrastructure.pdb
+D:\Projects\HCARS.API\HCARS.Infrastructure\bin\Debug\net6.0\HCARS.Domain.dll
+D:\Projects\HCARS.API\HCARS.Infrastructure\bin\Debug\net6.0\HCARS.Domain.pdb
+D:\Projects\HCARS.API\HCARS.Infrastructure\obj\Debug\net6.0\HCARS.Infrastructure.csproj.AssemblyReference.cache
+D:\Projects\HCARS.API\HCARS.Infrastructure\obj\Debug\net6.0\HCARS.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\HCARS.API\HCARS.Infrastructure\obj\Debug\net6.0\HCARS.Infrastructure.AssemblyInfoInputs.cache
+D:\Projects\HCARS.API\HCARS.Infrastructure\obj\Debug\net6.0\HCARS.Infrastructure.AssemblyInfo.cs
+D:\Projects\HCARS.API\HCARS.Infrastructure\obj\Debug\net6.0\HCARS.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Projects\HCARS.API\HCARS.Infrastructure\obj\Debug\net6.0\HCARS.Infrastructure.csproj.CopyComplete
+D:\Projects\HCARS.API\HCARS.Infrastructure\obj\Debug\net6.0\HCARS.Infrastructure.dll
+D:\Projects\HCARS.API\HCARS.Infrastructure\obj\Debug\net6.0\ref\HCARS.Infrastructure.dll
+D:\Projects\HCARS.API\HCARS.Infrastructure\obj\Debug\net6.0\HCARS.Infrastructure.pdb
+D:\Projects\HCARS.API\HCARS.Infrastructure\obj\Debug\net6.0\HCARS.Infrastructure.genruntimeconfig.cache

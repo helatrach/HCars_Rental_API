@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "e/MWEAdGhh94Rwtgv4ro0y7tllKA64y2jHxM4TzaZPg=",
+  "Source": "HCARS.API",
+  "BasePath": "_content/HCARS.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

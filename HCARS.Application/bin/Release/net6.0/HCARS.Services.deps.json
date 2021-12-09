@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "HCARS.Services/1.0.0": {
+        "dependencies": {
+          "HCARS.Domain": "1.0.0"
+        },
+        "runtime": {
+          "HCARS.Services.dll": {}
+        }
+      },
+      "HCARS.Domain/1.0.0": {
+        "runtime": {
+          "HCARS.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HCARS.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HCARS.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
