@@ -1,11 +1,54 @@
 {
   "Version": 1,
-  "Hash": "msG+EJt9TEog/dBb6Px7wpol0Z0otst9MV3QMxLNsR8=",
+  "Hash": "VF6QFX3uuLqRXCfuYCB94B/kOTYg73IRKNZw7HIYblw=",
   "Source": "HCARS.API",
   "BasePath": "_content/HCARS.API",
   "Mode": "Default",
   "ManifestType": "Publish",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "HCARS.API\\wwwroot",
+      "Source": "HCARS.API",
+      "ContentRoot": "D:\\Projects\\HCARS.API\\HCARS.API\\wwwroot\\",
+      "BasePath": "_content/HCARS.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Projects\\HCARS.API\\HCARS.API\\wwwroot\\Upload\\39ClassABlack.png",
+      "SourceId": "HCARS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\HCARS.API\\HCARS.API\\wwwroot\\",
+      "BasePath": "_content/HCARS.API",
+      "RelativePath": "Upload/39ClassABlack.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\39ClassABlack.png"
+    },
+    {
+      "Identity": "D:\\Projects\\HCARS.API\\HCARS.API\\wwwroot\\Upload\\40A4Red.jpg",
+      "SourceId": "HCARS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\HCARS.API\\HCARS.API\\wwwroot\\",
+      "BasePath": "_content/HCARS.API",
+      "RelativePath": "Upload/40A4Red.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\40A4Red.jpg"
+    }
+  ]
 }

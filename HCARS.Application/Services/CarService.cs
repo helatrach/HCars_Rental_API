@@ -33,7 +33,7 @@ namespace HCARS.Services.Services
 
         public async Task<IEnumerable<Car>> GetAllCarsAsync()
         {
-            return await _unitOfWork.Cars.GetAllAsync(new[] { "Brand", "Location" });
+            return await _unitOfWork.Cars.GetAllAsync(new[] { "Brand" });
         }
 
         public Task<IEnumerable<Car>> SearchCarsOrderedByID(string name, int? skip, int? take)
@@ -43,7 +43,7 @@ namespace HCARS.Services.Services
 
         public async Task<Car> GetCarAsync(int id)
         {
-            return await _unitOfWork.Cars.FindAsync(c => c.Id == id, new[] { "Brand", "Location" });
+            return await _unitOfWork.Cars.FindAsync(c => c.Id == id, new[] { "Brand"});
         }
 
         public async Task<Car> UpdateCarAsync(Car car)
@@ -57,6 +57,14 @@ namespace HCARS.Services.Services
         {
             _unitOfWork.Cars.Delete(id);
            return _unitOfWork.Complete();
+        }
+
+        public async Task UpdateCarImageAsync(int id, string url)
+        {
+            var car = await GetCarAsync(id);
+            car.ImageUrl = url;
+            _unitOfWork.Cars.Update(car);
+            _unitOfWork.Complete();
         }
     }
 }

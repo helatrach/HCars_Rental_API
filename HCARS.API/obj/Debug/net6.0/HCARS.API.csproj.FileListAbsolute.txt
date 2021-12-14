@@ -1,11 +1,14 @@
 D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\appsettings.Development.json
 D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\appsettings.json
+D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\HCARS.API.staticwebassets.runtime.json
 D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\HCARS.API.exe
 D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\HCARS.API.deps.json
 D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\HCARS.API.runtimeconfig.json
 D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\HCARS.API.dll
 D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\ref\HCARS.API.dll
 D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\HCARS.API.pdb
+D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\AutoMapper.dll
+D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\Humanizer.dll
 D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
@@ -60,8 +63,8 @@ D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\HCARS.Domain.dll
 D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\HCARS.Infrastructure.dll
 D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\HCARS.Services.dll
 D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\HCARS.Services.pdb
-D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\HCARS.Infrastructure.pdb
 D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\HCARS.Domain.pdb
+D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\HCARS.Infrastructure.pdb
 D:\Projects\HCARS.API\HCARS.API\obj\Debug\net6.0\HCARS.API.csproj.AssemblyReference.cache
 D:\Projects\HCARS.API\HCARS.API\obj\Debug\net6.0\HCARS.API.GeneratedMSBuildEditorConfig.editorconfig
 D:\Projects\HCARS.API\HCARS.API\obj\Debug\net6.0\HCARS.API.AssemblyInfoInputs.cache
@@ -77,3 +80,5 @@ D:\Projects\HCARS.API\HCARS.API\obj\Debug\net6.0\HCARS.API.dll
 D:\Projects\HCARS.API\HCARS.API\obj\Debug\net6.0\ref\HCARS.API.dll
 D:\Projects\HCARS.API\HCARS.API\obj\Debug\net6.0\HCARS.API.pdb
 D:\Projects\HCARS.API\HCARS.API\obj\Debug\net6.0\HCARS.API.genruntimeconfig.cache
+D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

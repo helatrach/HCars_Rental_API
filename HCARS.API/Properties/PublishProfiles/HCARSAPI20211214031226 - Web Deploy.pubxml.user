@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQl+JdwOYfkiCwn/v6TnL1AAAAAACAAAAAAAQZgAAAAEAACAAAABB+cjRs2zA77nKsOb4pW2tX87BpZ1b1VPa+4GbpTa3pgAAAAAOgAAAAAIAACAAAADv58JF5RRKFK/sjLNUoYWRQr1tLmHkJcCGrgh9W1q+EIAAAADWY7vAZEJC6FvrBwq5u8CXFDSC+8pkKL7BBmTQof857BvkZIBVgJRNPADG3pHYr2m2yC9+y05ZcenYKKpReLtkvrXNeKrTH+LVnq7fl3y4idZK5O4MVVCU2I+DTSfYnFZyM2yz50TgTSKwnQZwC58i9oFBJkKoMPSO4/YsaUdTjEAAAAB9Tj4ViQX++g9Q5YP+0qiT7yaD0ClkaAS53APSoNDjdlM+oKyc9bRXP8Lab53SfPViLnn3106OWe3KaJGF2bnw</EncryptedPassword>
+    <History>True|2021-12-14T02:50:55.8776122Z;True|2021-12-14T03:31:31.4937373+01:00;True|2021-12-14T03:25:39.2525032+01:00;True|2021-12-14T03:22:07.0184145+01:00;True|2021-12-14T03:20:45.2506246+01:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="HCARS.Infrastructure.Context.HCarsDbContext">
+      <Value>Data Source=tcp:hcarsrentaldbserver.database.windows.net,1433%3bInitial Catalog=HcarsRental%3bUser Id=Hcars%40hcarsrentaldbserver%3bPassword=Hc%40180790--</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

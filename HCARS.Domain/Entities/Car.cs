@@ -17,8 +17,6 @@ namespace HCARS.Domain.Entities
         public string Model { get; set; }
         public decimal PricePerDay { get; set; }
         public string ImageUrl { get; set; }
-        public Location? Location { get; set; }
-        public int? LocationId { get; set; }
         public int NumberOfDoors { get; set; }
         public string Color { get; set; }
         public int Mileage { get; set; }

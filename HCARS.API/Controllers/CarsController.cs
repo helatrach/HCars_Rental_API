@@ -1,4 +1,6 @@
-﻿using HCARS.Domain.Entities;
+﻿using AutoMapper;
+using HCARS.Domain.Entities;
+using HCARS.Domain.EntitiesModels;
 using HCARS.Services.IServices;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -10,9 +12,12 @@ namespace HCARS.API.Controllers
     public class CarsController : ControllerBase
     {
         private readonly ICarService _carService;
-        public CarsController(ICarService carService)
+       
+        private readonly IMapper _mapper;
+        public CarsController(ICarService carService, IWebHostEnvironment environment, IMapper mapper)
         {
             _carService = carService;
+            _mapper = mapper;
         }
 
         [HttpGet("GetCar")]

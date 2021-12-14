@@ -2,6 +2,7 @@ D:\Projects\HCARS.API\HCARS.Domain\bin\Debug\net6.0\HCARS.Domain.deps.json
 D:\Projects\HCARS.API\HCARS.Domain\bin\Debug\net6.0\HCARS.Domain.dll
 D:\Projects\HCARS.API\HCARS.Domain\bin\Debug\net6.0\ref\HCARS.Domain.dll
 D:\Projects\HCARS.API\HCARS.Domain\bin\Debug\net6.0\HCARS.Domain.pdb
+D:\Projects\HCARS.API\HCARS.Domain\obj\Debug\net6.0\HCARS.Domain.csproj.AssemblyReference.cache
 D:\Projects\HCARS.API\HCARS.Domain\obj\Debug\net6.0\HCARS.Domain.GeneratedMSBuildEditorConfig.editorconfig
 D:\Projects\HCARS.API\HCARS.Domain\obj\Debug\net6.0\HCARS.Domain.AssemblyInfoInputs.cache
 D:\Projects\HCARS.API\HCARS.Domain\obj\Debug\net6.0\HCARS.Domain.AssemblyInfo.cs
@@ -9,4 +10,3 @@ D:\Projects\HCARS.API\HCARS.Domain\obj\Debug\net6.0\HCARS.Domain.csproj.CoreComp
 D:\Projects\HCARS.API\HCARS.Domain\obj\Debug\net6.0\HCARS.Domain.dll
 D:\Projects\HCARS.API\HCARS.Domain\obj\Debug\net6.0\ref\HCARS.Domain.dll
 D:\Projects\HCARS.API\HCARS.Domain\obj\Debug\net6.0\HCARS.Domain.pdb
-D:\Projects\HCARS.API\HCARS.Domain\obj\Debug\net6.0\HCARS.Domain.csproj.AssemblyReference.cache

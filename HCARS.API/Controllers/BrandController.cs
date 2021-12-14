@@ -1,4 +1,5 @@
 ﻿using HCARS.Services.IServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -6,6 +7,7 @@ namespace HCARS.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    //[Authorize]
     public class BrandController : ControllerBase
     {
         private readonly IBrandService _brandService;

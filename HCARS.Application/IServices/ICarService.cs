@@ -17,5 +17,6 @@ namespace HCARS.Services.IServices
         Task<Car> UpdateCarAsync(Car car);
 
         int DeleteCar(int id);
+        Task UpdateCarImageAsync(int id, string url);
     }
 }
