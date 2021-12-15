@@ -82,3 +82,8 @@ D:\Projects\HCARS.API\HCARS.API\obj\Debug\net6.0\HCARS.API.pdb
 D:\Projects\HCARS.API\HCARS.API\obj\Debug\net6.0\HCARS.API.genruntimeconfig.cache
 D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\Azure.Core.dll
+D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\Azure.Storage.Blobs.dll
+D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\Azure.Storage.Common.dll
+D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\System.Memory.Data.dll

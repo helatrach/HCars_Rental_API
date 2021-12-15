@@ -1,4 +1,5 @@
-﻿using HCARS.Domain.EntitiesModels;
+﻿using Azure.Storage.Blobs;
+using HCARS.Domain.EntitiesModels;
 using HCARS.Services.IServices;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -9,41 +10,31 @@ namespace HCARS.API.Controllers
     [ApiController]
     public class UploadController : ControllerBase
     {
-        public static IWebHostEnvironment _environment;
+        public static IFileManager _fileManagger;
         private readonly ICarService _carService;
+        private readonly BlobServiceClient _blob;
 
-        public UploadController(IWebHostEnvironment environment, ICarService carService)
+        public UploadController(IFileManager fileManagger, ICarService carService, BlobServiceClient blob)
         {
-            _environment = environment;
+            _fileManagger = fileManagger;
             _carService = carService;
+            _blob = blob;
         }
 
         [HttpPost("UploadImage")]
         public async Task<string> Post([FromForm] FileUpload objFile)
         {
-            var path = _environment.WebRootPath + "\\Upload\\";
+        
             try
             {
+                var result = await _fileManagger.Upload(objFile);
 
-                if (objFile.files.Length > 0)
+                if(result != "Failed")
                 {
-                    if (!Directory.Exists(path))
-                    {
-                        Directory.CreateDirectory(path);
-                    }
-
-                    using (FileStream fileStream = System.IO.File.Create(path + objFile.CarId.ToString() + objFile.files.FileName))
-                    {
-                        objFile.files.CopyTo(fileStream);
-                        fileStream.Flush();
-                        await _carService.UpdateCarImageAsync(objFile.CarId, objFile.CarId.ToString() + objFile.files.FileName);
-                        return "\\Upload\\" + objFile.CarId.ToString() + objFile.files.FileName;
-                    }
+                    await _carService.UpdateCarImageAsync(objFile.CarId, objFile.CarId.ToString() + objFile.files.FileName);
                 }
-                else
-                {
-                    return "Failed";
-                }
+                return result;
+             
             }
             catch (Exception ex)
             {
@@ -53,19 +44,24 @@ namespace HCARS.API.Controllers
         }
 
         [HttpPost("Delete")]
-        public IActionResult DeleteFile([FromForm] string fileName)
+        public async Task<IActionResult> DeleteFile([FromForm] string fileName)
         {
-            var path = _environment.WebRootPath + "\\Upload\\";
-            FileInfo file = new FileInfo(path + fileName);
-            if (file.Exists)
-            {
-                file.Delete();
-                return Ok("File deleted successfully");
-            }
-            else
-            {
-                return Ok("This file does not exists") ;
-            }
+           await _fileManagger.Delete(fileName);
+           return Ok();
+        }
+        [HttpGet]
+        [Route("readImage")]
+        public async Task<IActionResult> Read(string fileName)
+        {
+            var imgData = await _fileManagger.Read(fileName);
+            //to view the image directly
+            return File(imgData, "image/webp");
+
+            //to download the image 
+            //return new FileContentResult(imgData, "application/octet-stream")
+            //{
+            //    FileDownloadName = fileName,
+            //};
         }
 
     }

@@ -1,4 +1,5 @@
 using AutoMapper;
+using Azure.Storage.Blobs;
 using HCARS.Domain.IRepository;
 using HCARS.Infrastructure.Context;
 using HCARS.Infrastructure.Repositories;
@@ -66,10 +67,15 @@ builder.Services.AddAuthentication(auth =>
 });
 
 //builder.Services.AddTransient(typeof(IBaseRepository<>), typeof(BaseRepository<>));
-builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
-builder.Services.AddTransient(typeof(ICarService), typeof(CarService));
-builder.Services.AddTransient(typeof(IBrandService), typeof(BrandService));
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped(typeof(ICarService), typeof(CarService));
+builder.Services.AddScoped(typeof(IBrandService), typeof(BrandService));
 builder.Services.AddScoped(typeof(IUserService), typeof(UserService));
+builder.Services.AddScoped(typeof(IFileManager), typeof(FileManager));
+builder.Services.AddScoped(opt =>
+{
+    return new BlobServiceClient(builder.Configuration.GetConnectionString("AzureStorage"));
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -98,7 +104,6 @@ app.UseHttpsRedirection();
 app.UseAuthentication();
 
 app.UseAuthorization();
-
 app.UseStaticFiles();
 
 app.MapControllers();

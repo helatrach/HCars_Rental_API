@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NvjYOKoaB55Nj4XA+1BUtXGq9zwMJDLV7LWXZYaA8/c=",
+  "Hash": "cj2swwPml7R1cBqAFDkq5c4+vWowSUlOjFDUQmRJ/gk=",
   "Source": "HCARS.API",
   "BasePath": "_content/HCARS.API",
   "Mode": "Default",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "D:\\Projects\\HCARS.API\\HCARS.API\\wwwroot\\Upload\\1A4Red.jpg",
+      "SourceId": "HCARS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\HCARS.API\\HCARS.API\\wwwroot\\",
+      "BasePath": "_content/HCARS.API",
+      "RelativePath": "Upload/1A4Red.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\1A4Red.jpg"
+    },
+    {
+      "Identity": "D:\\Projects\\HCARS.API\\HCARS.API\\wwwroot\\Upload\\1chaussure 1.jpg",
+      "SourceId": "HCARS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\HCARS.API\\HCARS.API\\wwwroot\\",
+      "BasePath": "_content/HCARS.API",
+      "RelativePath": "Upload/1chaussure 1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\1chaussure 1.jpg"
+    },
     {
       "Identity": "D:\\Projects\\HCARS.API\\HCARS.API\\wwwroot\\Upload\\39ClassABlack.png",
       "SourceId": "HCARS.API",
