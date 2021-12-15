@@ -34,6 +34,12 @@ namespace HCARS.API.Controllers
             return Ok(await _carService.GetAllCarsAsync());
         }
 
+        [HttpGet("GetAllAvailbleCars")]
+        public async Task<IActionResult> GetAvailbleCars()
+        {
+            return Ok(await _carService.GetAllAvailbleCarsAsync());
+        }
+
         [HttpGet("GetOrdered")]
         public async Task<IActionResult> GetOrdered()
         {

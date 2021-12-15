@@ -9,6 +9,7 @@ namespace HCARS.API.Helpers
         public ApiMapper()
         {
             CreateMap<Car,CarModel>().ReverseMap();
+            CreateMap<Rental, RentalModel>().ReverseMap();
         }
     }
 }

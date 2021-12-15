@@ -1,6 +1,7 @@
 ﻿using Azure.Storage.Blobs;
 using HCARS.Domain.EntitiesModels;
 using HCARS.Services.IServices;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,9 +14,11 @@ namespace HCARS.Services.Services
     {
 
         private readonly BlobServiceClient _blob;
-        public FileManager(BlobServiceClient blob)
+        private IConfiguration _config;
+        public FileManager(BlobServiceClient blob, IConfiguration config)
         {
             _blob = blob;
+            _config = config;
         }
 
         private BlobClient GetBlobClient(string containerName, string fileName)
@@ -31,7 +34,7 @@ namespace HCARS.Services.Services
 
                 if (model.files.Length > 0)
                 {
-                    var blobClient = GetBlobClient("upload", model.CarId.ToString() + model.files.FileName);
+                    var blobClient = GetBlobClient(_config["BlobContainer:Blob"], model.CarId.ToString() + model.files.FileName);
                     await blobClient.UploadAsync(model.files.OpenReadStream());
 
                     return "\\Upload\\" + model.CarId.ToString() + model.files.FileName;
@@ -50,7 +53,7 @@ namespace HCARS.Services.Services
 
         public async Task<byte[]> Read(string fileName)
         {
-            var blobClient = GetBlobClient("upload", fileName);
+            var blobClient = GetBlobClient(_config["BlobContainer:Blob"], fileName);
             var imgDownloadded = await blobClient.DownloadStreamingAsync();
 
             using (MemoryStream ms = new MemoryStream())
@@ -61,7 +64,7 @@ namespace HCARS.Services.Services
         }
         public async Task Delete(string fileName)
         {
-            var blobClient = GetBlobClient("upload", fileName);
+            var blobClient = GetBlobClient(_config["BlobContainer:Blob"], fileName);
 
             await blobClient.DeleteAsync();
         }

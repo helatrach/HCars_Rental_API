@@ -9,7 +9,13 @@ D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\ref\HCARS.API.dll
 D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\HCARS.API.pdb
 D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\AutoMapper.dll
 D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\Azure.Core.dll
+D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\Azure.Storage.Blobs.dll
+D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\Azure.Storage.Common.dll
 D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\Humanizer.dll
+D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -43,6 +49,7 @@ D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerU
 D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\System.Drawing.Common.dll
 D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\System.Memory.Data.dll
 D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\System.Runtime.Caching.dll
 D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\System.Security.Permissions.dll
@@ -80,10 +87,3 @@ D:\Projects\HCARS.API\HCARS.API\obj\Debug\net6.0\HCARS.API.dll
 D:\Projects\HCARS.API\HCARS.API\obj\Debug\net6.0\ref\HCARS.API.dll
 D:\Projects\HCARS.API\HCARS.API\obj\Debug\net6.0\HCARS.API.pdb
 D:\Projects\HCARS.API\HCARS.API\obj\Debug\net6.0\HCARS.API.genruntimeconfig.cache
-D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\Azure.Core.dll
-D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\Azure.Storage.Blobs.dll
-D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\Azure.Storage.Common.dll
-D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
-D:\Projects\HCARS.API\HCARS.API\bin\Debug\net6.0\System.Memory.Data.dll

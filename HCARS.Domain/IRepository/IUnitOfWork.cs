@@ -11,6 +11,7 @@ namespace HCARS.Domain.IRepository
     {
         ICarsRepository Cars { get; }
         IBaseRepository<Brand> Brands { get; }
+        IBaseRepository<Rental> Rentals { get; }
         Task<int> CompleteAsync();
         int Complete();
     }

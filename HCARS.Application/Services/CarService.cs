@@ -66,5 +66,10 @@ namespace HCARS.Services.Services
             _unitOfWork.Cars.Update(car);
             _unitOfWork.Complete();
         }
+
+        public async Task<IEnumerable<Car>> GetAllAvailbleCarsAsync()
+        {
+            return await _unitOfWork.Cars.FindAllAsync(c => c.Available == true ,new[] { "Brand" });
+        }
     }
 }

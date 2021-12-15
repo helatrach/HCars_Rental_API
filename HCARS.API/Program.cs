@@ -72,6 +72,7 @@ builder.Services.AddScoped(typeof(ICarService), typeof(CarService));
 builder.Services.AddScoped(typeof(IBrandService), typeof(BrandService));
 builder.Services.AddScoped(typeof(IUserService), typeof(UserService));
 builder.Services.AddScoped(typeof(IFileManager), typeof(FileManager));
+builder.Services.AddScoped(typeof(IRentalService), typeof(RentalService));
 builder.Services.AddScoped(opt =>
 {
     return new BlobServiceClient(builder.Configuration.GetConnectionString("AzureStorage"));
